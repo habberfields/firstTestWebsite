@@ -1,3 +1,17 @@
+#navigation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+
+#content {
+    margin-left: 200px;
+}
+
+#footer {
+    clear: both;
+}
 
 body {
     font-family: arial, helvetica, sans-serif;
@@ -18,6 +32,21 @@ p {
     border-width: 1px 5px 5px 1px;
     border-color: red green blue yellow;
     margin: 10px 50px;
+    display: block;
+
+}
+
+p:first-letter {
+    font-size: 24px;
+    float: left;
+}
+
+p:first-line {
+    font-weight: bold;
+}
+
+body {
+    background: white url(http://www.htmldog.com/images/bg.gif) no-repeat top right;
 }
 
 h1 {
