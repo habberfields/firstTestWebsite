@@ -11,7 +11,13 @@ body {
 /* This is a comment, by the way */
 
 p {
-    line-height: 21px;
+    font: 14px/1.5 "Times New Roman", times, serif;
+    /* font-style, font-weight, font-size, line-height, and font-family. */
+    padding: 30px 10px;
+    border: 1px black solid;
+    border-width: 1px 5px 5px 1px;
+    border-color: red green blue yellow;
+    margin: 10px 50px;
 }
 
 h1 {
